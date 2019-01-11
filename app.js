@@ -49,6 +49,6 @@ app.use('/', appRoutes);
 
 //Escuchar peticiones
 app.listen(8080, () => {
-    console.log('Server 3000: \x1b[32m %s \x1b[0m', 'online');
+    console.log('Server 8080: \x1b[32m %s \x1b[0m', 'online');
 
 });
