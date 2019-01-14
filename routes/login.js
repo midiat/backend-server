@@ -81,12 +81,12 @@ app.post('/google', async(req, res) => {
 
                 var token = jwt.sign({ usuario: usuarioDB }, SEED, { expiresIn: 14400 }); // 4hrs
 
-                res.status(200).json({
-                    ok: true,
-                    usuario: usuarioDB,
-                    id: usuarioDB._id,
-                    token: token
-                });
+                // res.status(200).json({
+                //     ok: true,
+                //     usuario: usuarioDB,
+                //     //id: usuarioDB._id,
+                //     token: token
+                // });
 
             });
         }
